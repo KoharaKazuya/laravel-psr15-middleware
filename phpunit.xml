@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true"
+         verbose="true"
+>
+    <testsuites>
+        <testsuite name="PSR15Middleware Test Suite">
+            <directory suffix="Test.php">./tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

@@ -1,0 +1,37 @@
+{
+  "name": "koharakazuya/laravel-psr15-middleware",
+  "description": "Adoptor to use PSR-15 middlewares in Laravel",
+  "keywords": [
+    "laravel",
+    "psr-15",
+    "middleware"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "KoharaKazuya",
+      "email": "reflect.results@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-json": "*",
+    "psr/http-server-middleware": "^1.0.1",
+    "symfony/psr-http-message-bridge": "^1.1",
+    "zendframework/zend-diactoros": "^1.8"
+  },
+  "require-dev": {
+    "illuminate/http": "^5.7",
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "KoharaKazuya\\LaravelPSR15Middleware\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": [
+      "phpunit"
+    ]
+  }
+}
