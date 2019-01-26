@@ -1,4 +1,4 @@
-# Laravel PSR-15 Middleware
+# Laravel PSR-15 Middleware [![CircleCI](https://circleci.com/gh/KoharaKazuya/laravel-psr15-middleware.svg?style=svg)](https://circleci.com/gh/KoharaKazuya/laravel-psr15-middleware)
 
 Adaptor to use PSR-15 middlewares in Laravel.
 
